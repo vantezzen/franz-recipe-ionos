@@ -1,0 +1,136 @@
+/**
+ * Material Dark Theme for StandardNotes
+ *
+ * https://github.com/vantezzen/sn-theme-material
+ */
+:root {
+  --background-1: #263238;
+  --background-2: #1e2b3d;
+  --foreground-color: #FFFFFF;
+  --highlight-color: #009688;
+  --date-color: #EEFFFF;
+  --border-color: #37474F;
+  --pre-color: #d6dbdb;
+  --accent-1: #93A1A1;
+  --accent-2: #D6488A;
+  --accent-3: #6B71C4;
+  --accent-4: #859901;
+  --accent-5: #B58900;
+  --content-1: #AABBC3;
+  --content-2: #AABBC3;
+  --content-3: #AABBC3;
+  --content-4: #AABBC3;
+  /* Footer */
+  --footer-bar-border-top-color: 0;
+  /* Column Menus */
+  --menu-item-sep-color: rgba(0, 0, 0, 0.1);
+  --sn-component-foreground-color: var(--content-1);
+  --sn-component-background-color: var(--border-color);
+  --sn-component-foreground-highlight-color: var(--highlight-color);
+  --sn-component-outer-border-color: transparent;
+  --sn-component-inner-border-color: var(--highlight-color);
+  --sn-stylekit-info-color: var(--highlight-color);
+  --sn-stylekit-info-contrast-color: var(--foreground-color);
+  --sn-stylekit-shadow-color: var(--background-2);
+  --sn-stylekit-background-color: var(--background-1);
+  --sn-stylekit-border-color: var(--border-color);
+  --sn-stylekit-contrast-background-color: var(--background-2);
+  --sn-stylekit-contrast-foreground-color: black;
+  --sn-stylekit-contrast-border-color: var(--border-color);
+  --sn-stylekit-scrollbar-track-border-color: var(--border-color);
+  --sn-desktop-titlebar-bg-color: var(--background-1);
+  --sn-desktop-titlebar-border-color: var(--border-color);
+  --sn-desktop-titlebar-ui-color: var(--foreground-color);
+  --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
+}
+
+::-moz-selection {
+  background: var(--highlight-color) !important;
+  /* WebKit/Blink Browsers */
+  color: var(--foreground-color) !important;
+}
+
+::selection {
+  background: var(--highlight-color) !important;
+  /* WebKit/Blink Browsers */
+  color: var(--foreground-color) !important;
+}
+
+::-moz-selection {
+  background: var(--highlight-color) !important;
+  /* Gecko Browsers */
+  color: var(--foreground-color) !important;
+}
+
+input {
+  color: var(--content-4) !important;
+}
+
+body {
+  color: var(--foreground-color) !important;
+  background-color: var(--background-1) !important;
+  font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-weight: 200;
+}
+
+#background-loader,
+.generic-toolbar,
+.generic-toolbar *,
+.folder-tree,
+.tree-container,
+.tree-container .selected *,
+.classic-toolbar,
+.leftside .abs,
+.mail-item .list-item,
+.rightside.mail-detail-pane {
+  background-color: var(--background-1) !important;
+  color: var(--foreground-color) !important;
+}
+
+.mail-item .list-item-content .subject {
+  background-color: transparent !important;
+  color: var(--foreground-color) !important;
+}
+
+.tree-container .selected *,
+.mail-item .list-item.selected {
+  background-color: var(--border-color) !important;
+}
+
+a {
+  color: var(--foreground-color) !important;
+}
+
+.mail-detail,
+.person-from,
+.person-to {
+  color: var(--foreground-color) !important;
+}
+
+* {
+  border-color: var(--border-color) !important;
+}
+
+/* Thread view */
+.thread-view-list {
+  background-color: var(--background-1) !important;
+}
+
+.thread-view-list * {
+  border-color: var(--content-1) !important;
+}
+
+.progress,
+.thread-view.list-view .list-item,
+.mail-detail section.body,
+.subject {
+  background-color: var(--background-2) !important;
+}
+
+/* Topbar */
+#io-ox-topbar {
+  background-color: #1c2a3f !important;
+}
+#io-ox-topbar .launcher.active-app { 
+  background-color: #273b58 !important;
+}

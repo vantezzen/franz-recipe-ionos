@@ -1,0 +1,14 @@
+{
+  "id": "ionos-mail",
+  "name": "IONOS Webmail",
+  "version": "1.0.0",
+  "description": "1&1 IONOS WebMailer for Franz",
+  "main": "index.js",
+  "author": "vantezzen <hello@vantezzen.io>",
+  "license": "MIT",
+  "repository": "https://github.com/vantezzen/franz-recipe-ionos",
+  "config": {
+    "serviceURL": "https://email.ionos.de/",
+    "serviceName": "IONOS Mail"
+  }
+}
